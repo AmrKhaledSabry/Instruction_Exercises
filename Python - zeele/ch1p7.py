@@ -1,0 +1,12 @@
+def main()
+    print ("This Program illustrates a chaotic function")
+    x = eval(input("Enter a number between 0 and 1:"))
+    y = eval(input("Enter a 2nd number between 0 and 1:"))
+    t = eval(input("How many chaotic iterations do you want? "))
+    print ("Value # 1 | Value #2")
+    for i in range(t)
+             x = 3.9*x*(1-x)
+             y = 3.9*y*(1-y)
+             print("    "+x+"    "+y)
+
+main()             
