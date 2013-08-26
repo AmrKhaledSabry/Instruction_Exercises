@@ -1,0 +1,30 @@
+﻿Build started 8/25/2013 6:18:37 PM.
+Project "C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Ex1_03\Ex1_03.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Ex1_03.unsuccessfulbuild" because "AlwaysCreate" was specified.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+ClCompile:
+  All outputs are up-to-date.
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Ex1_03.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Ex1_03.cpp /clr:nostdlib 
+  Ex1_03.cpp
+  All outputs are up-to-date.
+ResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Debug\Ex1_03.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Ex1_03.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Debug\Ex1_03.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+  Debug\AssemblyInfo.obj
+  Debug\Ex1_03.obj
+  Debug\stdafx.obj
+  "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+  Ex1_03.vcxproj -> C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Debug\Ex1_03.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Debug\Ex1_03.exe;#1" /manifest Debug\Ex1_03.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\Ex1_03.unsuccessfulbuild".
+  Touching "Debug\Ex1_03.lastbuildstate".
+Done Building Project "C:\Users\jpdev\Documents\github\Instruction_Exercises\Visual C++ - Ivor\Ex1_03\Ex1_03\Ex1_03.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.71
