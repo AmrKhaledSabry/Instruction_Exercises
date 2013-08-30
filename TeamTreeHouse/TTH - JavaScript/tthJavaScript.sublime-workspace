@@ -27,24 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "TestHTML.html",
-			"settings":
-			{
-				"buffer_size": 335,
-				"line_ending": "Windows",
-				"name": "<!DOCTYPE html>"
-			}
-		},
-		{
-			"file": "myscript.js",
-			"settings":
-			{
-				"buffer_size": 2198,
-				"line_ending": "Windows",
-				"name": "console.log(\"Hello World.\")"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -70,6 +52,8 @@
 	},
 	"file_history":
 	[
+		"/F/JPWS_HOME/Documents/GitHub/Instruction_Exercises/TeamTreeHouse/TTH - JavaScript/myscript.js",
+		"/F/JPWS_HOME/Documents/GitHub/Instruction_Exercises/TeamTreeHouse/TTH - JavaScript/TestHTML.html",
 		"/C/Users/jpws8/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/F/JPWS_HOME/Documents/GitHub/Instruction_Exercises/TTH - JavaScrpit/tthJavaScript.sublime-project",
 		"/F/JPWS_HOME/Documents/GitHub/Instruction_Exercises/TTH - JavaScrpit/TestHTML.html",
@@ -110,70 +94,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "TestHTML.html",
-					"settings":
-					{
-						"buffer_size": 335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"wrap_width": 0
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "myscript.js",
-					"settings":
-					{
-						"buffer_size": 2198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1825,
-								1825
-							]
-						],
-						"settings":
-						{
-							"auto_name": "console.log(\"Hello World.\")",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1027.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -247,7 +174,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }

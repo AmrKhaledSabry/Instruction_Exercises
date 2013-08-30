@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My HTML Reference Page</title>
+</head>
+
+<body>
+  
+  <!--Headings-->
+  <h1>This is a level 1 Heading</h1>
+  <h2>This is a level 2 Heading</h2>
+  <h3>This is a level 3 Heading</h3>
+  <h4>This is a level 4 Heading</h4>
+  <h5>This is a level 5 Heading</h5>
+  <h6>This is a level 6 Heading</h6>
+	<hr>
+  <!-- Organization tags-->
+  <div>This is a <div>div</div>.</div>
+  <span>This is a span.</span>
+  <hr>
+  <!--Text Modifiers -->
+  <p> 
+  	<em>Emphasis Tag</em><br>
+  	<strong>Strong Tag</strong><br>
+  	<hr>
+  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus eros in ligula convallis, ultricies consequat diam facilisis. Sed nulla sem, sollicitudin venenatis orci imperdiet, semper mollis velit. Nunc malesuada nec nunc id scelerisque. Integer vitae velit ut eros mattis pulvinar in in odio. Donec id ante dapibus elit egestas bibendum. Sed pellentesque lacinia porta. Curabitur neque magna, lobortis at nulla sed, ornare dignissim leo.
+  </p>
+
+  <blockquote cite="http://wikipedia.org">Beauty is in the eye of the beholder
+  </blockquote>
+
+  <p>Alternatively you can just use a <code>&lt;p&gt;</code> for quotes while using the 
+    <code>&lt;q cite=""&gt;</code> to cite a quote.
+  </p>  
+
+  <p>
+  	Nam eu urna congue, lacinia odio eu, feugiat purus. Donec quis egestas erat, malesuada hendrerit purus. Vestibulum semper dui enim, eget bibendum sem varius nec. Nam dignissim blandit ligula ut convallis. Nullam sit amet leo purus. Morbi tempus id mi quis aliquam. Nunc fermentum nulla at est pharetra suscipit. Etiam mollis mauris vitae accumsan facilisis. Praesent ac nulla sed quam scelerisque tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia sem quam, ullamcorper vehicula est venenatis sit amet. Duis gravida consequat vehicula. Vivamus dictum a eros eu venenatis. 
+  </p>
+  
+<!-- Tables --> 
+  <table border="5">
+    <thead> - table header
+      <tr> -- table row
+        <th valign="bottom">Fruits</th> --Table Header
+        <th valign="top">Vegetables</th>
+      </tr>
+    </thead> 
+    <tfoot> -- table footer
+         <tr>
+          <td colspan="2" align="Center">Thanks for Reading</td>
+        </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>Oranges</td> -- Table Data
+        <td>Carrots</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>Potato</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Forms --><br><hr><h3>Forms</h3>
+
+  <form action="#" method="POST" name="my_form">
+    <fieldset>
+      <legend>Important Information</legend>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username"><br>
+      <label for="id">Password:</label>
+      <input type="password" name="password" id="password"><br>
+      <input type="radio" name="sex" value="Female">Female<br>
+      <input type="radio" name="sex" value="Male">Male<br>
+      <input type="checkbox" name="food" value="Grapes">Grapes<br>
+      <input type="checkbox" name="food" value="Pears">Pears<br>
+      <input type="checkbox" name="food" value="Apples">Apples<br>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Optional</legend>
+      <textarea name="essay" rows="10" cols="10"></textarea><br>
+
+      <select>
+        <optgroup label="Americas">
+          <option>North America</option>
+          <option>South America</option>
+        </optgroup>
+        <optgroup label="Eurasia">
+          <option>Europe</option>
+          <option>Asia</option>
+        </optgroup>
+        <option>Antartica</option>
+        <option>Africa</option>
+        <option>Australia</option>
+      </select><br>    
+    </fieldset>
+    
+    <input type="submit" name="submit" value="Continue"><br>
+  </form>
+
+</body>
+</html>
