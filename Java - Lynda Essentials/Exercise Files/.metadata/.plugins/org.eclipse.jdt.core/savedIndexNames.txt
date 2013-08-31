@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\.metadata\.plugins\org.eclipse.jdt.core
+2380175872.index
