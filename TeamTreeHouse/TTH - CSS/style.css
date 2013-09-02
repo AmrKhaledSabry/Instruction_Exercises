@@ -1,0 +1,167 @@
+/*######## SELECTORS ########
+# Used to specify the location & specific elements that CSS expressions
+# should apply. 
+#
+# Selectors are ranked in a heirarchal or cascading application schema
+# IMPORTANCE > SPECIFICITY > SOURCE ORDER
+#
+#############################*/
+
+/*Type Selectors -- <TAG> {} */
+
+body {
+	background-color: lightblue;
+}
+
+h1 { 
+	color: darkblue;
+}
+
+
+/*ID Selectors -- #<id value> */
+#main {
+
+}
+
+/*Class Selectors -- '.<class value> {}'' */
+.intro {
+	font-weight: bold;
+}
+
+body.intro {
+	font-weight: bold;
+}
+
+/*GROUPING SELECTORS*/
+p,
+a {
+	color: red;
+}
+
+/*SELECTOR COMBINATORS*/
+
+/*Descendant Type Combinator -- '<parent tag> <child tag> {}' */
+p strong {
+	color: red;
+}
+
+/*Child Type Combinator ( > )*/
+/*'<parent selector> > <child selector> {}'*/
+div > a {
+  color: green;
+  font-weight: bold;
+}
+
+/*Adjacent Combinator Selection ( + )*/
+h2 + p {
+	background-color: lightblue;
+}
+
+/*General Combinator Selection ( ~ )*/
+h2 ~ p {
+	background-color: lightblue;
+}
+}
+
+/*ATTRIBUTE SELECTOR*/
+[class] {
+	background-color: crimson;
+	color: white;
+	padding: 5px;
+}
+
+a[class="e-form"] {
+	background-color: crimson;
+	color: white;
+	padding: 5px;
+}
+
+/*LINK & USER ACTION PSEUDO-CLASSES ':' */
+
+/*':link targets elements with href attribute'*/
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+
+/*'hover can be applied to any element'*/
+a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: tomato;
+}
+
+/*'active can be applied to any element'*/
+a:active {}
+
+:focus {}
+
+/*Basic Structural Pseudo-Classes*/
+
+li:first-child {
+	background-color: steelblue;
+	color: white;
+}
+
+li:last-child {}
+
+:only-child {}
+
+/*SUBSTRING MATCHING ATTRIBUTE SELECTORS*/
+
+/*'Begins with' Attribute selector (' ^= ') */
+
+a[href^="http:"] {}
+
+/*'Ends with' Attribute selector (' $= ') */
+
+a[href$=".pdf"] {}
+
+/*'Substring Contains' Attribute selector (' *= ') */
+
+img[src*="thumb"] {}
+
+/*PSEUDO-CLASSES – :NTH-CHILD */
+li:nth-child(odd) {}
+
+li:nth-child(even) {}
+
+/*uses 1 base index*/
+li:nth-child(n) {}
+
+/*where a & b are signed integers; b == first item a == repeat multplier */
+li:nth-child('="an+b") {}
+/*inverse of nth-child*/
+li:nth-last-child('="an+b") {}
+
+/*PSEUDO-CLASSES – :NTH-OF-TYPE AND :ONLY-OF-TYPE*/
+/*where a & b are signed integers; b == first item a == repeat multplier 
+	or use 'odd' or 'even'
+*/
+div:nth-of-type(an+b) {}
+
+div:nth-last-of-type(an+b) {}
+
+<tag>:only-of-type {};
+
+/*':root' selects the HTML tag with greater specificity*/
+:root {}
+
+/*':target' selects the element labelled by an id demarkated by the end of the page URL
+	which appears after selection. 
+	i.e. index.html#main ; the section with id main is selected*/
+:target {}
+
+/*selects empty elements*/
+:empty {}
+
+/*':not' used to inverse selectors
+	can be filled with any other selectors
+*/
+<tag>:not(:empty) {}
+
+/*UI ELEMENT STATES PSEUDO-CLASSES*/
+
