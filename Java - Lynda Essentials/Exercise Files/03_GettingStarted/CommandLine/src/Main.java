@@ -2,7 +2,17 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello from the command line!");
+		int monthNumber  = 9;
+		
+		if (monthNumber >= 1 && monthNumber <=3) {
+			System.out.println("You're in Quarter 1");
+		}
+		else if (monthNumber >= 4 && monthNumber <=6) {
+			System.out.println("You're in Quarter 2");
+		} 
+		else {
+			System.out.println("You're in the 2nd half of the year");
+		}
 	}
 
 }
