@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="ComplexObjects"/>
+		<item value="GettingStarted"/>
+	</list>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="960" key="dialogWidth"/>
 		<item value="718" key="dialogHeight"/>

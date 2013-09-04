@@ -2,7 +2,21 @@
 public class Main {
 
 	public static void main(String[] args) {
+		doSomething();	
+		
+		loopMe(10);
+	}
 
+
+	private static void loopMe(int top) {
+		for (int i = 0; i < top; i++) {
+			System.out.println("the value is "+i);
+		}
+	}
+	
+	
+	private static void doSomething() {
+		System.out.println("This is the doSomething Method.");
 	}
 
 }

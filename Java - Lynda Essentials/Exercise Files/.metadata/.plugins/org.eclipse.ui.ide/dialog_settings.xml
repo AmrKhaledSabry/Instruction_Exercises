@@ -5,9 +5,11 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\03_GettingStarted\Arguments"/>
-			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\03_GettingStarted\CommandLine"/>
-			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\03_GettingStarted\ExploreEclipse"/>
+			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\06_ComplexObjects"/>
+			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\05_SyntaxAndFlow"/>
+			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\05_SyntaxAndFlow\Loops"/>
+			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\05_SyntaxAndFlow\Switch"/>
+			<item value="C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\05_SyntaxAndFlow\Conditional"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int value1 = 5;
+		int value2= 10;
+		
+		int result = addValues(value1, value2);
+		System.out.println("The result is "+result);
+	}
+	
+	private static int addValues(int int1, int int2) {
+		return int1+int2;
+	}
+
+}

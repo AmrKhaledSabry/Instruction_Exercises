@@ -1,13 +1,17 @@
 INDEX VERSION 1.126+C:\Users\jpdev\Documents\github\Instruction_Exercises\Java - Lynda Essentials\Exercise Files\.metadata\.plugins\org.eclipse.jdt.core
+244104436.index
 1580586942.index
-1670916203.index
 3557250046.index
+3260480983.index
+2178987511.index
+211496567.index
+3223620568.index
+2694755120.index
+2440097375.index
+1670916203.index
+3905887818.index
+3750539155.index
 4004716721.index
 3470800227.index
 2380175872.index
-2440097375.index
-211496567.index
-3223620568.index
-3905887818.index
-2694755120.index
-3750539155.index
+1712945192.index
